@@ -61,7 +61,8 @@
         font-size: 2.5rem;
     }
     .title__subtitle{
-        font-size: 7rem;
+        padding-bottom: 2rem;
+        font-size: 5rem;
         width: max-content;
     }
     .maracocas{
@@ -71,7 +72,7 @@
         width: 0;
     }
     .text__description{
-        font-size: 2.5rem;
+        font-size: 3rem;
         width: fit-content;
     }
 }
