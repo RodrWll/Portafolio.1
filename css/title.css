@@ -1,0 +1,77 @@
+.title{
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+.title__title{
+    font-family: var(--bruno);
+    color: var(--color-accent);
+    font-size: 1.5rem;
+    font-weight: lighter;
+    
+}
+.title__subtitle{
+    font-family: var(--bruno);
+    color: var(--color-dark-1);
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-text);
+    font-weight: 100;
+    line-height: 1.1;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+
+}
+.maracocas{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 100%;
+    background-image: url(../img/maracocas.jpg);
+}
+.text__description{
+    font-family: var(--bruno);
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-bottom: .5rem;
+}
+.div__p{
+    font-family: var(--montserrat);
+    color: var(--color-accent);
+    width: max-content;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+@media screen and (min-width: 1024px) {
+    
+    .title__title{
+        font-size: 2.5rem;
+    }
+    .title__subtitle{
+        font-size: 7rem;
+        width: max-content;
+    }
+    .maracocas{
+        background-image: none;
+        margin: 0;
+        height: 0;
+        width: 0;
+    }
+    .text__description{
+        font-size: 2.5rem;
+        width: fit-content;
+    }
+}

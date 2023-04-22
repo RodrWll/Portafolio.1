@@ -1,0 +1,40 @@
+:root{
+    --montserrat: 'Montserrat', sans-serif;
+    --open-sans: 'Open sans', sans-serif;
+    --tilt: 'Tilt Prism', cursive;
+    --inter: 'Inter', sans-serif;
+    --bruno: 'Bruno Ace', cursive;
+
+    --color-bg: #0f172a;
+    --color-bg-secondary: #1e293b;
+    --color-accent: #38bdf8;
+    --color-accent-light: rgba(56,189,248,.1);
+    --color-text: #94a3b8;
+    --color-dark-1: #e2e8f0;
+    --color-dark-2: #cbd5e1;
+    --color-dark-3: #334155;
+    
+}
+body{
+    background-color: var(--color-bg);
+}
+.container {
+    padding-right: 6%;
+    background-color: #04131e;
+    padding-left: 6%;
+}
+
+.__title{
+    font-size: 3.5rem;
+    font-weight: 900;
+    align-self: center;
+    width: max-content;
+    font-family: var(--montserrat);
+    color: var(--color-dark-1);
+}
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}

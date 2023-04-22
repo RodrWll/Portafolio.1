@@ -1,0 +1,36 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+    font-family: var(--montserrat);
+    color: var(--color-dark-1);
+    
+    margin: 0;
+}
+.about__title{
+    font-size: 3.5rem;
+    font-weight: 900;
+    align-self: center;
+    width: max-content;
+}
+.about__p{
+    text-align: justify;
+    font-size: 2rem;
+    font-weight: lighter;
+    width: fit-content;
+    margin-top: 2rem;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+@media screen and (min-width: 1024px) {
+    .about {
+        text-align: justify;
+    }
+    .about__title{
+        font-size: 7.5rem;
+    }
+    .about__p{
+        font-size: 2.5rem;
+    }
+}
